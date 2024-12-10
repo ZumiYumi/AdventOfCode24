@@ -23,7 +23,7 @@ def is_correct_order(update, rules):
                 return False
                 #as soon as one incorrect check is found, the loop exits, preventing the rest from being checked
     return True
-    #if at least the second if statement for every rule returned True on this update line, all checks passed
+    #if at least the second if statement for every rule returned False on this update line, all checks passed
 
 middle_pages = []
 for update in updates:
